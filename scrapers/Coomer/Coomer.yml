@@ -1,0 +1,21 @@
+name: Coomer
+# requires: py_common
+sceneByFragment:
+  action: script
+  script:
+    - python
+    - Coomer.py
+    - scene-by-fragment
+sceneByName:
+  action: script
+  script:
+    - python
+    - Coomer.py
+    - scene-by-name
+sceneByQueryFragment:
+  action: script
+  script:
+    - python
+    - Coomer.py
+    - scene-by-query-fragment
+# TODO: Last Updated April 30, 2024
